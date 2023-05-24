@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div class="footer">
-      <section class="about us container" id="information">
-                <div class="container-about-us">
+      <section className="about us container" id="information">
+                <div className="container-about-us">
                     <h2>SOBRE NOSOTROS</h2>
                     <p>Somos estudiantes de Ingenieria en Informática,
                         de la Universidad de Mendoza, cursando el tercer año
@@ -13,7 +13,7 @@ const Footer = () => {
                         buscando adquirir conocimientos en backend y frontend.
                     </p>
                 </div>
-                <div class="container-link">
+                <div className="container-link">
                     <table>
                         <tr>
                             <td><i class='bx bxl-github'></i></td>
@@ -26,9 +26,9 @@ const Footer = () => {
                     </table>
                 </div>
             </section>
-            <section class="languages container" id="lan">
+            <section className="languages container" id="lan">
                 <h2>LENGUAJES UTILIZADOS</h2>
-                <div class="container-languages">
+                <div className="container-languages">
                     <table>
                         <tr>
                             <td><i class='bx bxl-html5'></i></td>
@@ -45,7 +45,7 @@ const Footer = () => {
                         </tr>
                     </table>
                 </div>
-            </section>
+        </section>
     </div>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Navbar = () => {
+
+export const Navbar = () => {
   return (
-    <div>
-      <h1>PROGRAMACIÓN I</h1>
+    <div className="header">
+        <h1>PROGRAMACIÓN I</h1>
         <nav>
             <ul>
                 <li><a href="#start">INICIO</a></li>
@@ -11,6 +12,7 @@ const Navbar = () => {
                 <li><a href="#information">INFORMACIÓN</a></li>
             </ul>
         </nav>
+        <h1>SISTEMA DE PARKING</h1>
     </div>
   )
 }

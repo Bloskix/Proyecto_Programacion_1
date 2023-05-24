@@ -3,10 +3,10 @@ import React from 'react'
 const Main = () => {
   return (
     <div>
-      <section class="chosenTopic container" id="election">
-            <div class="card">
+      <section className="chosenTopic container" id="election">
+            <div className="card">
                 <h3>¿POR QUÉ ELEGIMOS ESTE PROYECTO?</h3>
-                <p class="text">
+                <p className="text">
                     El proyecto que hemos elegido es desarrollar un sistema
                     para la gestión de estacionamiento de vehículos.
                     Consideramos que se trata de una necesidad muy real en
@@ -19,12 +19,12 @@ const Main = () => {
                 </p>
             </div>
         </section>
-        <section class="functions container" id="functionalities">
+        <section className="functions container" id="functionalities">
             <h2>FUNCIONALIDADES DEL SISTEMA</h2>
-            <div class="container-functions">
-                <div class="card">
+            <div className="container-functions">
+                <div className="card">
                     <h3>GESTIÓN DE USUARIOS</h3>
-                    <p class="text">
+                    <p className="text">
                         El sistema debe permitir registrar nuevos usuarios,
                         indicando nombre, apellido, dirección, etc.
                         Además, debe permitir registrar los lugares
@@ -32,7 +32,7 @@ const Main = () => {
                         puede estacionar en ese lugar y el precio por hora.
                     </p>
                 </div>
-                <div class="card">
+                <div className="card">
                     <h3>REGISTRO DE INGRESOS</h3>
                     <p class="text">
                         El sistema debe permitir registrar los vehículos que
@@ -40,7 +40,7 @@ const Main = () => {
                         el tipo de vehículo. (auto, camioneta, camión, etc.)
                     </p>
                 </div>
-                <div class="card">
+                <div className="card">
                     <h3>REGISTRO DE SALIDA</h3>
                     <p class="text">
                         El sistema debe permitir registrar la salida de los
